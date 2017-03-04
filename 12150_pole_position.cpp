@@ -36,8 +36,9 @@ int main() {
         if (!ok) {
             printf("-1\n");
         } else {
-            for (int i = 0; i < N; ++i) {
-                printf("%d ", race[i]);
+            printf("%d", race[0]);
+            for (int i = 1; i < N; ++i) {
+                printf(" %d", race[i]);
             }
 
             printf("\n");
