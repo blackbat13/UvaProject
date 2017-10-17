@@ -26,6 +26,8 @@ int main() {
             } else {
                 b += tab[i];
             }
+
+            printf("%d\n", b);
         }
 
         if(a > b) {
