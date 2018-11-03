@@ -27,7 +27,7 @@ int main() {
                 b += tab[i];
             }
 
-            printf("%d\n", b);
+            //printf("%d\n", b);
         }
 
         if(a > b) {
