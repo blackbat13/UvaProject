@@ -29,7 +29,7 @@ int main()
             scanf("%d", &a);
             dfs(graph, a, visited);
         }
-        
+
         result = 0;
         for (auto const &el : visited)
         {
